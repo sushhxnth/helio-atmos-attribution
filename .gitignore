@@ -1,0 +1,8 @@
+*.pyc
+*.csv
+*.parquet
+*.py
+*.txt
+*.dat
+*.json
+data/processed/aligned_helio_atmos_daily.nc
