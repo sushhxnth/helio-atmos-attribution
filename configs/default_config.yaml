@@ -1,0 +1,33 @@
+project:
+  name: "helio-atmos-attribution"
+  start_date: "1996-01-01"   # Full Solar Cycles 23, 24, and 25 (high-precision Wind/ACE + ERA5 overlap)
+  end_date: "2024-12-31"
+
+stations:
+  OULU:
+    code: "OULU"
+    cutoff_rigidity_gv: 0.8
+  MOSC:
+    code: "MOSC"
+    cutoff_rigidity_gv: 2.4
+  TYO:
+    code: "TYO"
+    cutoff_rigidity_gv: 11.4
+
+regions:
+  wpwp:
+    name: "Western_Pacific_Warm_Pool"
+    lat: 10.0
+    lon: 140.0
+  bob:
+    name: "Bay_of_Bengal_Convective_Core"
+    lat: 14.0
+    lon: 88.0
+
+validation:
+  purge_window_days: 54      # 2x Bartels solar rotation buffer to prevent temporal leakage
+  held_out_cycle_start: "2008-12-01"
+  held_out_cycle_end: "2019-11-30"
+  forbush_drop_threshold_pct: -3.5
+  red_noise_surrogates: 1000
+  random_seed: 42
