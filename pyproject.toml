@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "helio-atmos-attribution"
+version = "1.0.0"
+description = "Time-aware reconstruction of Galactic Cosmic-Ray modulation and multi-scale attribution of satellite & reanalysis cloud-radiative variability."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Sushanth"}]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

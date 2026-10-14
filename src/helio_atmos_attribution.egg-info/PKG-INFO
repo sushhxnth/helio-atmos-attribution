@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: helio-atmos-attribution
+Version: 1.0.0
+Summary: Time-aware reconstruction of Galactic Cosmic-Ray modulation and multi-scale attribution of satellite & reanalysis cloud-radiative variability.
+Author: Sushanth
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
