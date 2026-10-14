@@ -2,11 +2,6 @@
 
 **Time-Aware Reconstruction of Galactic Cosmic-Ray Modulation and Multi-Scale Attribution of Satellite & Reanalysis Cloud-Radiative Variability**
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![xarray](https://img.shields.io/badge/data-xarray%20%7C%20Dask-orange)](https://docs.xarray.dev/)
-[![Models](https://img.shields.io/badge/ML-LightGBM%20%7C%20Scikit--Learn-green)](https://scikit-learn.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 ## Overview
 `helio-atmos-attribution` is a reproducible Python pipeline engineered to investigate solar-terrestrial physics and climate data science[cite: 5]. The repository tackles the high autocorrelation and non-stationarity inherent to solar-climate records by enforcing strict time-aware validation and uncertainty-aware proxy processing[cite: 3, 4]. 
 
